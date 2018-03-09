@@ -1,0 +1,6 @@
+framework module Pods_MyTools {
+  umbrella header "Pods-MyTools-umbrella.h"
+
+  export *
+  module * { export * }
+}

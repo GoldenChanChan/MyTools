@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BC9BD99CFD0CFA9881F048C /* Pods_MyTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 515319625A0BF98023DB1B26 /* Pods_MyTools.framework */; };
+		E6629CBA20527FC00014AB25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6629CB920527FC00014AB25 /* AppDelegate.m */; };
+		E6629CC020527FC00014AB25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6629CBE20527FC00014AB25 /* Main.storyboard */; };
+		E6629CC220527FC00014AB25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6629CC120527FC00014AB25 /* Assets.xcassets */; };
+		E6629CC520527FC00014AB25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6629CC320527FC00014AB25 /* LaunchScreen.storyboard */; };
+		E6629CC820527FC00014AB25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6629CC720527FC00014AB25 /* main.m */; };
+		E6629CE7205282350014AB25 /* WCLRecordEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = E6629CE3205282350014AB25 /* WCLRecordEncoder.m */; };
+		E6629CE8205282350014AB25 /* WCLRecordEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = E6629CE6205282350014AB25 /* WCLRecordEngine.m */; };
+		E6629CF52052824F0014AB25 /* UploadMediaProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6629CEB2052824F0014AB25 /* UploadMediaProgressView.m */; };
+		E6629CF62052824F0014AB25 /* TitleWithBottomPointButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E6629CEC2052824F0014AB25 /* TitleWithBottomPointButton.m */; };
+		E6629CF72052824F0014AB25 /* RecordTimeCountView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6629CED2052824F0014AB25 /* RecordTimeCountView.m */; };
+		E6629CF82052824F0014AB25 /* PublishRecordInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6629CF12052824F0014AB25 /* PublishRecordInputView.m */; };
+		E6629CF92052824F0014AB25 /* ImageWithBottomTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E6629CF22052824F0014AB25 /* ImageWithBottomTitleButton.m */; };
+		E6629CFA2052824F0014AB25 /* PublishRecordVideoBottomOptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6629CF42052824F0014AB25 /* PublishRecordVideoBottomOptionView.m */; };
+		E6629CFD205282660014AB25 /* RecordVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6629CFC205282660014AB25 /* RecordVideoViewController.m */; };
+		E6629D022052A2850014AB25 /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = E6629D002052A2850014AB25 /* NSString+Size.m */; };
+		E6629D052052A37E0014AB25 /* UIColor+Method.m in Sources */ = {isa = PBXBuildFile; fileRef = E6629D042052A37E0014AB25 /* UIColor+Method.m */; };
+		E6629D0F2052A5F30014AB25 /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = E6629D0D2052A5F30014AB25 /* EXTScope.m */; };
+		E6629D132052A7E00014AB25 /* AppDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = E6629D122052A7E00014AB25 /* AppDefines.m */; };
+		E6629D162052ACCD0014AB25 /* MediaEditorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E6629D152052ACCD0014AB25 /* MediaEditorHelper.m */; };
+		E6629D1E2052AE2C0014AB25 /* AVSEExportCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = E6629D182052AE2C0014AB25 /* AVSEExportCommand.m */; };
+		E6629D1F2052AE2C0014AB25 /* AVSECommand.m in Sources */ = {isa = PBXBuildFile; fileRef = E6629D192052AE2C0014AB25 /* AVSECommand.m */; };
+		E6629D202052AE2C0014AB25 /* AVSERotateCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = E6629D1D2052AE2C0014AB25 /* AVSERotateCommand.m */; };
+		E6629D232052B0DB0014AB25 /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6629D222052B0DB0014AB25 /* RootTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07F9F8FC9E5E7EF4CC54964B /* Pods-MyTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyTools/Pods-MyTools.debug.xcconfig"; sourceTree = "<group>"; };
+		515319625A0BF98023DB1B26 /* Pods_MyTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E491DAE59B8F03661EFEC354 /* Pods-MyTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTools.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyTools/Pods-MyTools.release.xcconfig"; sourceTree = "<group>"; };
+		E6629CB520527FC00014AB25 /* MyTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6629CB820527FC00014AB25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E6629CB920527FC00014AB25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E6629CBF20527FC00014AB25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6629CC120527FC00014AB25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6629CC420527FC00014AB25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6629CC620527FC00014AB25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6629CC720527FC00014AB25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6629CE2205282350014AB25 /* WCLRecordEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCLRecordEncoder.h; sourceTree = "<group>"; };
+		E6629CE3205282350014AB25 /* WCLRecordEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCLRecordEncoder.m; sourceTree = "<group>"; };
+		E6629CE5205282350014AB25 /* WCLRecordEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCLRecordEngine.h; sourceTree = "<group>"; };
+		E6629CE6205282350014AB25 /* WCLRecordEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCLRecordEngine.m; sourceTree = "<group>"; };
+		E6629CE92052824F0014AB25 /* UploadMediaProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadMediaProgressView.h; sourceTree = "<group>"; };
+		E6629CEA2052824F0014AB25 /* ImageWithBottomTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageWithBottomTitleButton.h; sourceTree = "<group>"; };
+		E6629CEB2052824F0014AB25 /* UploadMediaProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadMediaProgressView.m; sourceTree = "<group>"; };
+		E6629CEC2052824F0014AB25 /* TitleWithBottomPointButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleWithBottomPointButton.m; sourceTree = "<group>"; };
+		E6629CED2052824F0014AB25 /* RecordTimeCountView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordTimeCountView.m; sourceTree = "<group>"; };
+		E6629CEE2052824F0014AB25 /* TitleWithBottomPointButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleWithBottomPointButton.h; sourceTree = "<group>"; };
+		E6629CEF2052824F0014AB25 /* PublishRecordInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishRecordInputView.h; sourceTree = "<group>"; };
+		E6629CF02052824F0014AB25 /* RecordTimeCountView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordTimeCountView.h; sourceTree = "<group>"; };
+		E6629CF12052824F0014AB25 /* PublishRecordInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublishRecordInputView.m; sourceTree = "<group>"; };
+		E6629CF22052824F0014AB25 /* ImageWithBottomTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageWithBottomTitleButton.m; sourceTree = "<group>"; };
+		E6629CF32052824F0014AB25 /* PublishRecordVideoBottomOptionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishRecordVideoBottomOptionView.h; sourceTree = "<group>"; };
+		E6629CF42052824F0014AB25 /* PublishRecordVideoBottomOptionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublishRecordVideoBottomOptionView.m; sourceTree = "<group>"; };
+		E6629CFB205282660014AB25 /* RecordVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordVideoViewController.h; sourceTree = "<group>"; };
+		E6629CFC205282660014AB25 /* RecordVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordVideoViewController.m; sourceTree = "<group>"; };
+		E6629D002052A2850014AB25 /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
+		E6629D012052A2850014AB25 /* NSString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
+		E6629D032052A37E0014AB25 /* UIColor+Method.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Method.h"; sourceTree = "<group>"; };
+		E6629D042052A37E0014AB25 /* UIColor+Method.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Method.m"; sourceTree = "<group>"; };
+		E6629D072052A3F10014AB25 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ReactiveCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6629D092052A4670014AB25 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6629D0C2052A5F30014AB25 /* metamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metamacros.h; sourceTree = "<group>"; };
+		E6629D0D2052A5F30014AB25 /* EXTScope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXTScope.m; sourceTree = "<group>"; };
+		E6629D0E2052A5F30014AB25 /* EXTScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTScope.h; sourceTree = "<group>"; };
+		E6629D112052A7E00014AB25 /* AppDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDefines.h; sourceTree = "<group>"; };
+		E6629D122052A7E00014AB25 /* AppDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDefines.m; sourceTree = "<group>"; };
+		E6629D142052ACCD0014AB25 /* MediaEditorHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediaEditorHelper.h; sourceTree = "<group>"; };
+		E6629D152052ACCD0014AB25 /* MediaEditorHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediaEditorHelper.m; sourceTree = "<group>"; };
+		E6629D182052AE2C0014AB25 /* AVSEExportCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVSEExportCommand.m; sourceTree = "<group>"; };
+		E6629D192052AE2C0014AB25 /* AVSECommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVSECommand.m; sourceTree = "<group>"; };
+		E6629D1A2052AE2C0014AB25 /* AVSERotateCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVSERotateCommand.h; sourceTree = "<group>"; };
+		E6629D1B2052AE2C0014AB25 /* AVSECommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVSECommand.h; sourceTree = "<group>"; };
+		E6629D1C2052AE2C0014AB25 /* AVSEExportCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVSEExportCommand.h; sourceTree = "<group>"; };
+		E6629D1D2052AE2C0014AB25 /* AVSERotateCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVSERotateCommand.m; sourceTree = "<group>"; };
+		E6629D212052B0DA0014AB25 /* RootTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootTableViewController.h; sourceTree = "<group>"; };
+		E6629D222052B0DB0014AB25 /* RootTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6629CB220527FC00014AB25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BC9BD99CFD0CFA9881F048C /* Pods_MyTools.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		083A8AF6D8DB721AD2EB2C12 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07F9F8FC9E5E7EF4CC54964B /* Pods-MyTools.debug.xcconfig */,
+				E491DAE59B8F03661EFEC354 /* Pods-MyTools.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3965BA686D2AA76E103A3453 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6629D092052A4670014AB25 /* Masonry.framework */,
+				E6629D072052A3F10014AB25 /* ReactiveCocoa.framework */,
+				515319625A0BF98023DB1B26 /* Pods_MyTools.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6629CAC20527FC00014AB25 = {
+			isa = PBXGroup;
+			children = (
+				E6629CB720527FC00014AB25 /* MyTools */,
+				E6629CB620527FC00014AB25 /* Products */,
+				083A8AF6D8DB721AD2EB2C12 /* Pods */,
+				3965BA686D2AA76E103A3453 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E6629CB620527FC00014AB25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6629CB520527FC00014AB25 /* MyTools.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6629CB720527FC00014AB25 /* MyTools */ = {
+			isa = PBXGroup;
+			children = (
+				E6629CFE2052A2630014AB25 /* General */,
+				E6629CCE20527FEC0014AB25 /* Moduls */,
+				E6629CB820527FC00014AB25 /* AppDelegate.h */,
+				E6629CB920527FC00014AB25 /* AppDelegate.m */,
+				E6629D212052B0DA0014AB25 /* RootTableViewController.h */,
+				E6629D222052B0DB0014AB25 /* RootTableViewController.m */,
+				E6629CBE20527FC00014AB25 /* Main.storyboard */,
+				E6629CC120527FC00014AB25 /* Assets.xcassets */,
+				E6629CC320527FC00014AB25 /* LaunchScreen.storyboard */,
+				E6629CC620527FC00014AB25 /* Info.plist */,
+				E6629CC720527FC00014AB25 /* main.m */,
+			);
+			path = MyTools;
+			sourceTree = "<group>";
+		};
+		E6629CCE20527FEC0014AB25 /* Moduls */ = {
+			isa = PBXGroup;
+			children = (
+				E6629CCF20527FF90014AB25 /* 拍摄视频 */,
+			);
+			path = Moduls;
+			sourceTree = "<group>";
+		};
+		E6629CCF20527FF90014AB25 /* 拍摄视频 */ = {
+			isa = PBXGroup;
+			children = (
+				E6629CDF2052820F0014AB25 /* Tools */,
+				E6629CDE205281EF0014AB25 /* Controller */,
+				E6629CDD205281E10014AB25 /* View */,
+				E6629CDC205281D60014AB25 /* Model */,
+			);
+			path = "拍摄视频";
+			sourceTree = "<group>";
+		};
+		E6629CDC205281D60014AB25 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E6629CDD205281E10014AB25 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E6629CEA2052824F0014AB25 /* ImageWithBottomTitleButton.h */,
+				E6629CF22052824F0014AB25 /* ImageWithBottomTitleButton.m */,
+				E6629CEF2052824F0014AB25 /* PublishRecordInputView.h */,
+				E6629CF12052824F0014AB25 /* PublishRecordInputView.m */,
+				E6629CF32052824F0014AB25 /* PublishRecordVideoBottomOptionView.h */,
+				E6629CF42052824F0014AB25 /* PublishRecordVideoBottomOptionView.m */,
+				E6629CF02052824F0014AB25 /* RecordTimeCountView.h */,
+				E6629CED2052824F0014AB25 /* RecordTimeCountView.m */,
+				E6629CEE2052824F0014AB25 /* TitleWithBottomPointButton.h */,
+				E6629CEC2052824F0014AB25 /* TitleWithBottomPointButton.m */,
+				E6629CE92052824F0014AB25 /* UploadMediaProgressView.h */,
+				E6629CEB2052824F0014AB25 /* UploadMediaProgressView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E6629CDE205281EF0014AB25 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E6629CFB205282660014AB25 /* RecordVideoViewController.h */,
+				E6629CFC205282660014AB25 /* RecordVideoViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E6629CDF2052820F0014AB25 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				E6629D172052AE2C0014AB25 /* MovieEditorTool */,
+				E6629CE0205282350014AB25 /* WCLRecordVideo */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		E6629CE0205282350014AB25 /* WCLRecordVideo */ = {
+			isa = PBXGroup;
+			children = (
+				E6629CE1205282350014AB25 /* WCLRecordEncoder */,
+				E6629CE4205282350014AB25 /* WCLRecordEngine */,
+			);
+			path = WCLRecordVideo;
+			sourceTree = "<group>";
+		};
+		E6629CE1205282350014AB25 /* WCLRecordEncoder */ = {
+			isa = PBXGroup;
+			children = (
+				E6629CE2205282350014AB25 /* WCLRecordEncoder.h */,
+				E6629CE3205282350014AB25 /* WCLRecordEncoder.m */,
+			);
+			path = WCLRecordEncoder;
+			sourceTree = "<group>";
+		};
+		E6629CE4205282350014AB25 /* WCLRecordEngine */ = {
+			isa = PBXGroup;
+			children = (
+				E6629CE5205282350014AB25 /* WCLRecordEngine.h */,
+				E6629CE6205282350014AB25 /* WCLRecordEngine.m */,
+			);
+			path = WCLRecordEngine;
+			sourceTree = "<group>";
+		};
+		E6629CFE2052A2630014AB25 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				E6629D102052A7D40014AB25 /* Defines */,
+				E6629D0A2052A5EB0014AB25 /* Tools */,
+				E6629CFF2052A26C0014AB25 /* Category */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		E6629CFF2052A26C0014AB25 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E6629D012052A2850014AB25 /* NSString+Size.h */,
+				E6629D002052A2850014AB25 /* NSString+Size.m */,
+				E6629D032052A37E0014AB25 /* UIColor+Method.h */,
+				E6629D042052A37E0014AB25 /* UIColor+Method.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		E6629D0A2052A5EB0014AB25 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				E6629D0B2052A5F30014AB25 /* extobjc */,
+				E6629D142052ACCD0014AB25 /* MediaEditorHelper.h */,
+				E6629D152052ACCD0014AB25 /* MediaEditorHelper.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		E6629D0B2052A5F30014AB25 /* extobjc */ = {
+			isa = PBXGroup;
+			children = (
+				E6629D0C2052A5F30014AB25 /* metamacros.h */,
+				E6629D0D2052A5F30014AB25 /* EXTScope.m */,
+				E6629D0E2052A5F30014AB25 /* EXTScope.h */,
+			);
+			path = extobjc;
+			sourceTree = "<group>";
+		};
+		E6629D102052A7D40014AB25 /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				E6629D112052A7E00014AB25 /* AppDefines.h */,
+				E6629D122052A7E00014AB25 /* AppDefines.m */,
+			);
+			path = Defines;
+			sourceTree = "<group>";
+		};
+		E6629D172052AE2C0014AB25 /* MovieEditorTool */ = {
+			isa = PBXGroup;
+			children = (
+				E6629D182052AE2C0014AB25 /* AVSEExportCommand.m */,
+				E6629D192052AE2C0014AB25 /* AVSECommand.m */,
+				E6629D1A2052AE2C0014AB25 /* AVSERotateCommand.h */,
+				E6629D1B2052AE2C0014AB25 /* AVSECommand.h */,
+				E6629D1C2052AE2C0014AB25 /* AVSEExportCommand.h */,
+				E6629D1D2052AE2C0014AB25 /* AVSERotateCommand.m */,
+			);
+			path = MovieEditorTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6629CB420527FC00014AB25 /* MyTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6629CCB20527FC00014AB25 /* Build configuration list for PBXNativeTarget "MyTools" */;
+			buildPhases = (
+				6EA6982F80138D34A0DBE71F /* [CP] Check Pods Manifest.lock */,
+				E6629CB120527FC00014AB25 /* Sources */,
+				E6629CB220527FC00014AB25 /* Frameworks */,
+				E6629CB320527FC00014AB25 /* Resources */,
+				3A7C22A552A028FE347CD59B /* [CP] Embed Pods Frameworks */,
+				66D8975445095EE16657AF16 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyTools;
+			productName = MyTools;
+			productReference = E6629CB520527FC00014AB25 /* MyTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6629CAD20527FC00014AB25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = goldenchan;
+				TargetAttributes = {
+					E6629CB420527FC00014AB25 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E6629CB020527FC00014AB25 /* Build configuration list for PBXProject "MyTools" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6629CAC20527FC00014AB25;
+			productRefGroup = E6629CB620527FC00014AB25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6629CB420527FC00014AB25 /* MyTools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6629CB320527FC00014AB25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6629CC520527FC00014AB25 /* LaunchScreen.storyboard in Resources */,
+				E6629CC220527FC00014AB25 /* Assets.xcassets in Resources */,
+				E6629CC020527FC00014AB25 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A7C22A552A028FE347CD59B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyTools/Pods-MyTools-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CYLTabBarController/CYLTabBarController.framework",
+				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/TOCropViewController/TOCropViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CYLTabBarController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TOCropViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyTools/Pods-MyTools-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66D8975445095EE16657AF16 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyTools/Pods-MyTools-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EA6982F80138D34A0DBE71F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyTools-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6629CB120527FC00014AB25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6629D0F2052A5F30014AB25 /* EXTScope.m in Sources */,
+				E6629CF92052824F0014AB25 /* ImageWithBottomTitleButton.m in Sources */,
+				E6629D162052ACCD0014AB25 /* MediaEditorHelper.m in Sources */,
+				E6629D202052AE2C0014AB25 /* AVSERotateCommand.m in Sources */,
+				E6629D022052A2850014AB25 /* NSString+Size.m in Sources */,
+				E6629D1E2052AE2C0014AB25 /* AVSEExportCommand.m in Sources */,
+				E6629CFA2052824F0014AB25 /* PublishRecordVideoBottomOptionView.m in Sources */,
+				E6629CF82052824F0014AB25 /* PublishRecordInputView.m in Sources */,
+				E6629CF62052824F0014AB25 /* TitleWithBottomPointButton.m in Sources */,
+				E6629D132052A7E00014AB25 /* AppDefines.m in Sources */,
+				E6629D1F2052AE2C0014AB25 /* AVSECommand.m in Sources */,
+				E6629D232052B0DB0014AB25 /* RootTableViewController.m in Sources */,
+				E6629CF72052824F0014AB25 /* RecordTimeCountView.m in Sources */,
+				E6629CC820527FC00014AB25 /* main.m in Sources */,
+				E6629D052052A37E0014AB25 /* UIColor+Method.m in Sources */,
+				E6629CBA20527FC00014AB25 /* AppDelegate.m in Sources */,
+				E6629CE7205282350014AB25 /* WCLRecordEncoder.m in Sources */,
+				E6629CF52052824F0014AB25 /* UploadMediaProgressView.m in Sources */,
+				E6629CE8205282350014AB25 /* WCLRecordEngine.m in Sources */,
+				E6629CFD205282660014AB25 /* RecordVideoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E6629CBE20527FC00014AB25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6629CBF20527FC00014AB25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E6629CC320527FC00014AB25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6629CC420527FC00014AB25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6629CC920527FC00014AB25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E6629CCA20527FC00014AB25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6629CCC20527FC00014AB25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07F9F8FC9E5E7EF4CC54964B /* Pods-MyTools.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28WF89228K;
+				INFOPLIST_FILE = MyTools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "moody.--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6629CCD20527FC00014AB25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E491DAE59B8F03661EFEC354 /* Pods-MyTools.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28WF89228K;
+				INFOPLIST_FILE = MyTools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "moody.--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6629CB020527FC00014AB25 /* Build configuration list for PBXProject "MyTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6629CC920527FC00014AB25 /* Debug */,
+				E6629CCA20527FC00014AB25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6629CCB20527FC00014AB25 /* Build configuration list for PBXNativeTarget "MyTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6629CCC20527FC00014AB25 /* Debug */,
+				E6629CCD20527FC00014AB25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6629CAD20527FC00014AB25 /* Project object */;
+}
